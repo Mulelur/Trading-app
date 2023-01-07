@@ -1,0 +1,11 @@
+.col-reset {
+  flex: 0 0 25%;
+  max-width: 25%;
+
+  @media only screen and (min-width: 300px) {
+    max-width: 100% !important;
+    flex: 1 !important;
+
+    padding-top: 1rem;
+  }
+}
